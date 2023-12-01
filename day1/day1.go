@@ -33,9 +33,8 @@ func part1() int {
 					lastNum = strNum
 				} else {
 					firstNum, lastNum = strNum, strNum
+					foundFirst = true
 				}
-
-				foundFirst = true
 			}
 		}
 
